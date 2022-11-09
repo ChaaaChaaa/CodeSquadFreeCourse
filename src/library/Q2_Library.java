@@ -14,6 +14,8 @@ public class Q2_Library {
         B_Library.storeNewBook(B_Library.bookList,"사피엔스","유발 하라리");
 
         A_Library.bookList.stream().forEach(book -> System.out.print(book.bookName+","+book.author+" "));
+
+
         System.out.println();
         A1_Library.bookList.stream().forEach(book -> System.out.print(book.bookName+","+book.author+" "));
         System.out.println();
