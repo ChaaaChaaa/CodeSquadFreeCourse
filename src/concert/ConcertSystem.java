@@ -30,7 +30,7 @@ public class ConcertSystem {
                     break;
 
                 case 3:
-                    Cancellation cancellation = new Cancellation(seatList);
+                    Cancellation cancellation = new Cancellation();
                     int inputCancelClass = InputView.inputSeatClass();
                     ResultView.printSeatList(inputCancelClass,seatList);
                     String inputCancelName = InputView.inputName();
