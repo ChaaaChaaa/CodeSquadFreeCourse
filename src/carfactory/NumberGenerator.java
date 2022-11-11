@@ -10,8 +10,9 @@ public class NumberGenerator {
     }
 
     public int deDuplicationNumbers() {
-        int tempNumber = generateNumber();
+        int tempNumber =0;
         while (true) {
+            tempNumber = generateNumber();
             if (!carNumber.contains(tempNumber)) {
                 carNumber.add(tempNumber);
                 break;
